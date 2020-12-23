@@ -131,6 +131,12 @@ li:hover a
 	text-decoration: underline;
 }
 
+.contacts a:visited
+{
+	text-decoration: none;
+	color: blue;
+}
+
 .main
 {
 	max-width: 700px;
