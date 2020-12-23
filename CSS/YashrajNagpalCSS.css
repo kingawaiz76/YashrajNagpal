@@ -1,0 +1,128 @@
+body
+{
+	padding: 0;
+	margin: 0;
+	font-family: arial;
+/*	display: flex;
+	flex-direction: column;*/
+	/*background is for what it is*/
+	/*colour is for normal text*/
+	--darkModeButtonColor: yellow;
+	--backgroundColor: white;
+	--normalTextColor: black;
+	--navBarColor: #F8F8FF;
+	--navBarText: #000;
+	--navHoverColor: blue;
+	--delay: 1s;
+
+	/*transition: var(--delay);*/
+	background: var(--backgroundColor);
+	color: var(--normalTextColor);
+}
+
+body.dark
+{
+	--darkModeButtonColor: blue;
+	--backgroundColor: rgb(20, 20, 20);
+	--normalTextColor: white;
+	--navBarColor: rgb(40,40,40);
+	--navBarText: white;
+	--navHoverColor: blue;
+}
+
+.icon
+{
+	color: var(--normalTextColor)
+}
+
+.Profile img
+{
+	height: 200px;
+	border-radius: 50%;
+}
+
+h1
+{
+	text-align: center;
+}
+
+ul
+{
+	position: fixed;
+	float: left;
+	margin: 0px;
+	padding: 0px;
+	min-width: 100%;
+	background: var(--navBarColor);
+	/*background of nav bar*/
+}
+
+ul li
+{
+	float: left;
+	list-style-type: none;
+	padding: 20px 5px;
+}
+
+.darkMode
+{
+	float: right;
+	padding: 5px 5px 5px 5px;
+	/*padding: .5em 1em;*/
+	margin-top: .6rem;
+	margin-right: .6rem;
+	background: var(--darkModeButtonColor);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;	
+	border-radius: .5em;
+	border: none;
+	outline: none;
+
+	/*transform: scale(1);*/
+}
+
+.darkMode:hover
+{
+	transform: scale(1.1);
+	/*background: red;*/
+}
+
+
+ul h3
+{
+	float: left;
+	list-style-type: none;
+	padding: 0px 50px 0px 20px; 
+}
+
+ul li a 
+{
+	text-decoration: none;
+	text-align: center;
+	color: var(--navBarText);
+	/*color of text normal*/
+}
+
+li:hover 
+{
+	/*background: grey;*/
+	/*Background of hover*/
+	cursor: pointer;
+}
+
+li:hover a
+{
+	/*color: #fff;*/
+	color: var(--navHoverColor);
+	/*color of text when hover*/
+}
+
+.main
+{
+	max-width: 1000px;
+	margin: 0 auto;
+	padding-top: 50px;
+
+}
