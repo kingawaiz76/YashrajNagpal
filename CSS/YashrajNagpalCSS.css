@@ -119,9 +119,21 @@ li:hover a
 	/*color of text when hover*/
 }
 
+.contacts a
+{
+	text-decoration: none;
+	color: blue;
+	padding-right: 50px;
+}
+
+.contacts a:hover
+{
+	text-decoration: underline;
+}
+
 .main
 {
-	max-width: 1000px;
+	max-width: 700px;
 	margin: 0 auto;
 	padding-top: 50px;
 
