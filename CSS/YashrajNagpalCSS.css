@@ -52,6 +52,25 @@ body.dark
 	max-width: 400px;
 }
 
+.projects iframe
+{
+	display: block;
+ 	margin-left: auto;
+	margin-right: auto;
+	border-radius: 5%;
+}
+
+.experience img
+{	
+	display: block;
+ 	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+	border-radius: 5%;
+	max-height: 400px;
+	max-width: 400px;
+}
+
 h1
 {
 	text-align: center;
