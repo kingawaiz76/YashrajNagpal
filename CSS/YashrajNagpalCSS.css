@@ -58,7 +58,13 @@ body.dark
  	margin-left: auto;
 	margin-right: auto;
 	border-radius: 5%;
+	/*background:url(Projects/Loading.gif) center center no-repeat;*/
 }
+
+/*.projects iframe: before
+{
+	background:url(Projects/Loading.gif) center center no-repeat;
+}*/
 
 .experience img
 {	
