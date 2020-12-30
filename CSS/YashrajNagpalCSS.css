@@ -183,7 +183,6 @@ li:hover a
 .projects a:hover
 {
 	text-decoration: underline;
-	transform: scale(1.1);
 }
 
 .projects a:visited
