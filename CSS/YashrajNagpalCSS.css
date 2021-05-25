@@ -50,9 +50,18 @@ body.dark
 	border-radius: 5%;
 	max-height: 400px;
 	max-width: 400px;
+
 }
 
-.projects iframe
+iframe
+{
+	display: block;
+ 	margin-left: auto;
+	margin-right: auto;
+	/*background:url(Projects/Loading.gif) center center no-repeat;*/
+}
+
+.BB iframe
 {
 	display: block;
  	margin-left: auto;
