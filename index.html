@@ -1,56 +1,198 @@
 <!DOCTYPE html>
-<html>
-<head>
-	<title>Yashraj Nagpal</title>
-	<link rel="stylesheet" type="text/css" href="CSS/YashrajNagpalCSS.css">
-	<script src="JS/YashrajNagpalDarkModeJS.js" defer></script>
-</head>
-<body>
-	<ul>
-		<h3>Yashraj Nagpal</h3>
-		<li><a><strong>About Me</strong></a></li>
-		<li><a href="YashrajNagpalProjects.html">Projects</a></li>
-		<li><a href="YashrajNagpalExperience.html">Experiences</a></li>
-		<button class="darkMode">
-		  <svg class="icon" style="width:24px;height:24px" viewBox="0 0 24 24">
-		    <path fill="currentColor" d="M7.5,2C5.71,3.15 4.5,5.18 4.5,7.5C4.5,9.82 5.71,11.85 7.53,13C4.46,13 2,10.54 2,7.5A5.5,5.5 0 0,1 7.5,2M19.07,3.5L20.5,4.93L4.93,20.5L3.5,19.07L19.07,3.5M12.89,5.93L11.41,5L9.97,6L10.39,4.3L9,3.24L10.75,3.12L11.33,1.47L12,3.1L13.73,3.13L12.38,4.26L12.89,5.93M9.59,9.54L8.43,8.81L7.31,9.59L7.65,8.27L6.56,7.44L7.92,7.35L8.37,6.06L8.88,7.33L10.24,7.36L9.19,8.23L9.59,9.54M19,13.5A5.5,5.5 0 0,1 13.5,19C12.28,19 11.15,18.6 10.24,17.93L17.93,10.24C18.6,11.15 19,12.28 19,13.5M14.6,20.08L17.37,18.93L17.13,22.28L14.6,20.08M18.93,17.38L20.08,14.61L22.28,17.15L18.93,17.38M20.08,12.42L18.94,9.64L22.28,9.88L20.08,12.42M9.63,18.93L12.4,20.08L9.87,22.27L9.63,18.93Z" />
-		  </svg>
-		</button>
-	</ul>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yashraj Nagpal</title>
+    <!-- <link href="https://fonts.googleapis.com/css?family=Caveat|Montserrat:400,600&display=swap" rel="stylesheet">  -->
+    <link rel="stylesheet" href="CSS/style.css">
+  </head>
+  <body>
+    <main>
+      <!-- ***********************  ABOUT / PROFILE  *********************** -->
+      <header>
+          <div class = "content-wrap">
+            <h1>Yashraj Nagpal</h1>
+            <h2>Mechatronics Engineer</h2>
 
-	<div class = "main">
-		<br>
+            <p>
+              I am a Mechatronics student at the University of Waterloo.
+              <br>
+              I have experience with many programming languages such as JavaScript, C++, HTML, CSS, Java, C# and more. I also have experienece with SolidWorks, AutoCAD, and GD&T designing projects. 
+            </p>
+            <p>
+              I love to test my skills and see what I am able to create, but I also love to learn new skills and encorporate them into anything I am trying to make.
+              I am always looking for new oppurtunities to develop my skills so feel free to contact me to chat or if you have any questions.
+            </p>
+        </div>
+      </header>
 
-		<h1>About Me</h1>
+      <!-- ********************  PROJECTS / PORTFOLIO  ********************* -->
+      <section class = "projects">
+        <div class = "content-wrap divider">
+          <h2>Featured Projects</h2>
+          <p>View selected projects below. More information can be found on my <a href="https://github.com/YashrajN">Github</a>.</p>
+          <div class = "project-items dividerP">
 
-		<div class = "Profile">
-			<img src="Images/PFP.jpg">
-		</div>
+            <!-- Copy the whole <section> block to add more projects. -->
+              <section class = "project-item">
+                <h3>Path Finding Algorithm and Maze Genorator</h3>
+                <!-- <img src="Images/pathFinder.png" alt="description of image" width="600px"> -->
+                <a  href="https://editor.p5js.org/Yashraj_Nagpal/present/hYN2uUFix" target="_blank"><img src="Images/pathFinder.png" alt="description of image" width="600px"></a>
+                <p>A visualization, customizable by the user, of A*s path finding algotithm, Dijkstra's path finding algotithm, and the depth first search maze genorating algorithm..</p>
+                <a class = "btn" href="https://editor.p5js.org/Yashraj_Nagpal/present/hYN2uUFix" target="_blank">View Project</a>
+                <a class = "btn" href="https://github.com/YashrajN/Path-Finding-Algorithm-with-Maze-Gen-Algorithm" target="_blank">Github</a>
+              </section>
+              <!-- End of Project block. -->
 
-		<p>
-			Hello, my name is Yashraj Nagpal.
-		</p>
+            <!-- Copy the whole <section> block to add more projects. -->
+              <section class = "project-item">
+                <h3>One Piece Brick Breaker</h3>
+                <a href="https://editor.p5js.org/Yashraj_Nagpal/present/W9u5oHFMq" target="_blank"><img src="Images/BBgame.png" alt="description of image" width="600px"></a>
+                <p>Designed and coded a brick breaker game using JavaScript, P5 implementing functions, collision algorithms, and multiple levels</p>
+                <a class = "btn" href="https://editor.p5js.org/Yashraj_Nagpal/present/W9u5oHFMq" target="_blank">View project</a>
+                <a class = "btn" href="https://github.com/YashrajN/Path-Finding-Algorithm-with-Maze-Gen-Algorithm" target="_blank">Github</a>
+              </section>
+              <!-- End of Project block. -->
 
-		<p>
-			I am a Mechatronics student at the University of Waterloo.
-			<br>
-			I have experience with many programming languages such as JavaScript, C++, HTML, CSS, Java, C# and more. I also have experienece with SolidWorks, AutoCAD, and GD&T designing projects. 
-		</p>
-		<p>
-			I love to test my skills and see what I am able to create, but I also love to learn new skills and encorporate them into anything I am trying to make.
-			I am always looking for new oppurtunities to develop my skills so feel free to contact me to chat or if you have any questions.
-		</p>
-		<p>
-			<div class = "contacts">
-				<a href="mailto: y2nagpal@uwaterloo.ca">Email</a> 
-				<a href="https://www.linkedin.com/in/yashrajnagpal/" target="_blank" rel="noopener noreferrer">LinkedIn</a> 
-				<a href="https://github.com/YashrajN" target="_blank" rel="noopener noreferrer">Github</a> 
-				<a href="https://docs.google.com/document/d/1ULTkQpwXQzhUVJvjq6juCIeaUM3xGeRagkk0BHnmjj0/edit?usp=sharing" target="_blank" rel="noopener noreferrer">Resume</a>
-			</div>
-		</p>
+              <!-- Copy the whole <section> block to add more projects. -->
+            <section class = "project-item">
+              <h3>Sponsorship Render - UW Baja</h3>
+              <img src="Images/Baja.png" alt="description of image" width="600px">
+              <p>Created a render of the off-road vehicle for a sponsorship package to then show to potential sponsors. Used Solidworks to create the render.</p>
+              <a class = "btn" href="https://github.com/YashrajN" target="_blank">View project</a>
+            </section>
+            <!-- End of Project block. -->
 
-	</div>
-	
+            <!-- Copy the whole <section> block to add more projects. -->
+              <section class = "project-item">
+                <h3>Demeter Watering System</h3>
+                <a href="https://github.com/YashrajN/Demeter-Greenhouse-Project" target="_blank"><img src="Images/Demeter.png" alt="description of image" width="600px"></a>
+                <p>Prototype crop watering greenhouse device that mimics desirable environment traits such as sunlight, humidity, and temperature using both Arduino and C#.
+                  Completely compact in one unit so everything is self-sustaining.</p>
+                <a class = "btn" href="https://github.com/YashrajN/Demeter-Greenhouse-Project" target="_blank">Github</a>
+                <a class = "btn" href="https://drive.google.com/file/d/1wJ7_1rPFgjUaP32zaVWxDGCmtxs6ofNS/view" target="_blank">Operational Video</a>
+              </section>
+              <!-- End of Project block. -->
 
-</body>
+            <!-- Copy the whole <section> block to add more projects. -->
+              <section class = "project-item">
+                <h3>Vex Robot Competitions</h3>
+                <img src="Images/VexRobot.png" alt="description of image" width="600px">
+                <p>VEX competition robots designed, coded, and built for different obstacle courses.
+                  This robotpicked up game balls off a pedestal without knocking the pedestal down with a high degree of accuracy and precision.</p>
+                <a class = "btn" href="https://github.com/YashrajN" target="_blank">View project</a>
+              </section>
+              <!-- End of Project block. -->
+
+            <!-- Copy the whole <section> block to add more projects. -->
+            <section class = "project-item">
+              <h3>Arduino Guessing Game</h3>
+              <a href="https://github.com/YashrajN/Arduino-Guessing-Game" target="_blank"><img src="Images/arduino.png" alt="description of image" width="600px"></a>
+              <p>Arduino Guessing Game Project that gives the user a sequence of lights to memorize, and then the user needs to repeat the sequence using the buttons to move onto the next level.</p>
+              <a class = "btn" href="https://github.com/YashrajN/Arduino-Guessing-Game" target="_blank">Github</a>
+            </section>
+            <!-- End of Project block. -->
+
+            <!-- Copy the whole <section> block to add more projects. -->
+              <section class = "project-item">
+                <h3>Series and Parallel Circuit Application</h3>
+                <a href="https://github.com/YashrajN/Series-and-Parallel-App" target="_blank"><img src="Images/SeriesParallel.png" alt="description of image" width="600px"></a>
+                <p>Application programed in Visual Studios C# that gives the user practice problems about the topic they chose, being completely user friendly, and interactive.
+                  Implemented design features such as radio buttons, hidden windows, and an algorithm to create randomized questions.</p>
+                <a class = "btn" href="https://github.com/YashrajN/Series-and-Parallel-App" target="_blank">Github</a>
+              </section>
+              <!-- End of Project block. -->
+
+              <!-- Copy the whole <section> block to add more projects. -->
+            <section class = "project-item">
+              <h3>Frogger</h3>
+              <a href="https://editor.p5js.org/Yashraj_Nagpal/present/yhpZkl3pD" target="_blank"><img src="Images/frogger.png" alt="description of image" width="600px"></a>
+              <p>A simple version of frogger codded using JavaScript, implementing collision algorithms.</p>
+              <a class = "btn" href="https://editor.p5js.org/Yashraj_Nagpal/present/yhpZkl3pD" target="_blank">View project</a>
+              <a class = "btn" href="https://github.com/YashrajN/Frogger" target="_blank">Github</a>
+            </section>
+            <!-- End of Project block. -->
+
+            <!-- Copy the whole <section> block to add more projects. -->
+            <section class = "project-item">
+              <h3>3D Printed Phone Stand</h3>
+              <img src="Images/PhoneStand.png" alt="description of image" width="600px">
+              <p>Designed a collapsible phone stand incorporating design features and restriction.</p>
+              <a class = "btn" href="https://github.com/YashrajN" target="_blank">View project</a>
+            </section>
+            <!-- End of Project block. -->
+
+              <!-- Copy the whole <section> block to add more projects. -->
+            <!-- <section class = "project-item">
+              <h3>Demeter Watering System</h3>
+              <img src="Images/Demeter.png" alt="description of image" width="600px">
+              <p>Summary or description of the project and/or your role in it. Add as many paragraphs as you need.</p>
+              <a href="https://github.com/YashrajN/Demeter-Greenhouse-Project" target="_blank">View project</a>
+            </section> -->
+            <!-- End of Project block. -->
+          </div>
+        </div>
+      </section>
+
+      <!-- ***********************  WORK EXPERIENCE  *********************** -->
+      <section class = "work-experience item-details divider">
+        <div class = "content-wrap">
+          <h2>Work Experience</h2>
+          <p>Optional paragraph for work experience summary. Not a part of the job details. Delete if not being used.</p>
+
+          <!-- Copy this whole <section> block to add more jobs. -->
+          <section class = "job-item">
+            <div class = "job-details">
+              <h3>Job title</h3>
+              <p>Company Name</p>
+              <p>Date at job</p>
+            </div>
+            <div class = "job-summary">
+              <p>Job summary goes here. Add as many paragraphs as you need.</p>
+              <p>Optional list:</p>
+              <ul>
+                <li>Delete this list if you don't need it.</li>
+                <li>Created...</li>
+                <li>Lead...</li>
+                <li>Responsible for...</li>
+              </ul>
+            </div>
+          </section>
+          <!-- End of Job block. -->
+        </div>
+      </section>
+
+      <!-- ******************  EDUCATION & CERTIFICATIONS ****************** -->
+      <section class = "education">
+        <div class = "content-wrap item-details">
+          <h2>Education</h2>
+
+          <!-- Copy this whole <section> block to add more schools. -->
+          <section>
+            <h3>University of Waterloo</h3>
+            <p>Mechatronics Engineering, 2025</p>
+            <p>GPA: 4.0</p>
+          </section>
+          <!-- End of School block. -->
+        </div>
+      </section>
+
+      <!-- *****************  CONTACT INFO / SOCIAL MEDIA  ***************** -->
+      <footer>
+        <div class = "content-wrap">
+          <h2>Let's Keep in Touch!</h2>
+
+          <!-- Social media and contact links. Add or remove any networks. -->
+          <ul class = "contact-list">
+            <li><a href="mailto: y2nagpal@uwaterloo.ca">y2nagpal@uwaterloo.ca</a></li>
+            <li><a href="https://www.linkedin.com/in/yashrajnagpal/">LinkedIn</a></li>
+            <li><a href="https://github.com/YashrajN">Github</a></li>
+            <li><a href="https://docs.google.com/document/d/1ULTkQpwXQzhUVJvjq6juCIeaUM3xGeRagkk0BHnmjj0/edit?usp=sharing">Resume</a></li>
+            <!-- <li><a href="#" target="_blank">Twitter</a></li> -->
+          </ul>
+        </div>
+      </footer>
+    </main>
+  </body>
 </html>
