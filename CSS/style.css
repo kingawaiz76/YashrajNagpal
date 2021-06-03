@@ -44,7 +44,7 @@ h2 {
 }
 h1,
 h2 {
-  font-family: "Caveat", cursive;
+  /* font-family: "Caveat", cursive; */
   font-weight: 400;
   margin: 0;
 }
@@ -110,6 +110,12 @@ header {
 }
 .project-item {
   overflow: hidden;
+}
+.projects a img {
+  transition: transform 0.2s;
+}
+.projects a img:hover {
+  transform: scale(1.03);
 }
 .project-item h3 {
   margin-top: 0;
