@@ -27,7 +27,7 @@ body {
   --projjCol: #2f3061;
   --workEx: #2f3061;
   --normalTextColor: #f7fff7;
-  --navHoverColor: rgb(0, 170, 255);
+  --navHoverColor: #0087ca;
   --proBtn: #a1c6d7;
   --proBtnText: #343434;
   --proBtnHov: #a1c6d7c2;
@@ -47,7 +47,7 @@ body.dark {
   --projjCol: #a1c6d7;
   --workEx: #a1c6d7;
   --normalTextColor: #343434;
-  --navHoverColor: rgb(0, 170, 255);
+  --navHoverColor: #0087ca;
   --proBtn: #2f3061;
   --proBtnText: #f7fff7;
   --proBtnHov: rgba(47, 48, 97, 80%);
@@ -136,11 +136,11 @@ h3 {
 
   /*transform: scale(1);*/
 }
-
 .darkMode:hover {
   transform: scale(1.1);
   /*background: red;*/
 }
+
 /* Navigation */
 .nav ul {
   /* background: var(--backgroundColor); */
@@ -154,21 +154,35 @@ h3 {
   padding-right: 0;
   z-index: 100;
 }
-
 .nav li {
   display: inline-block;
   font-size: 20px;
 }
-
 .nav a {
   padding: 15px;
   text-decoration: none;
   color: var(--normalTextColor);
   transition: transform 1s;
+  position: relative;
 }
-
-.nav a:hover {
+/* .nav a:hover {
   text-decoration: underline;
+} */
+.nav a:after {
+  content: "";
+  position: absolute;
+  width: 75%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 5px;
+  left: 12.5%;
+  background-color: var(--navHoverColor);
+  transform-origin: center;
+  transition: transform 0.25s ease-out;
+}
+.nav a:hover:after {
+  transform: scaleX(1);
+  transform-origin: center;
 }
 
 /* Profile */
