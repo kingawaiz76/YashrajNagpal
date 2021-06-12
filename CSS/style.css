@@ -189,6 +189,9 @@ h3 {
 header {
   background: var(--profileCol);
 }
+header img {
+  border-radius: 50%;
+}
 
 /* Projects */
 .projects {
@@ -292,6 +295,20 @@ footer {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     column-gap: 50px;
+  }
+}
+
+@media screen and (min-width: 1110px) {
+  header img {
+    float: left;
+    margin-right: 20px;
+  }
+}
+
+@media screen and (max-width: 1110px) {
+  header img {
+    padding-top: 20px;
+    width: 250px;
   }
 }
 
