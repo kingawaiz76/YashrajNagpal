@@ -67,7 +67,9 @@ a {
 }
 a:hover {
   text-decoration: none;
+  /* text-decoration: underline; */
 }
+
 h1 {
   font-size: 100px;
   line-height: 1;
@@ -231,6 +233,12 @@ header img {
 }
 
 /* Work Experience */
+.texta {
+  text-decoration: none;
+}
+.texta:hover {
+  text-decoration: underline;
+}
 .work-experience {
   background: var(--workEx);
 }
